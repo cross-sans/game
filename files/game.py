@@ -25,7 +25,6 @@ your hp will be drained constantly
     with open('items.txt') as h:
       global items
       items = h.read()
-      items = list(items)
 
   def loadHP():
     with open('hp.txt') as h:
